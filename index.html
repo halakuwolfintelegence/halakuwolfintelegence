@@ -3,38 +3,171 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>HALAKU WOLF INTELLIGENCE</title>
-
-<meta name="google-site-verification" content="5x3E-vpFOgjmUtJPKtMiQ-CJqJPHh4UdQv52vJepYoU" />
-
+<title>HALAKU WOLF INTELLIGENCE | CYBER WAR DIVISION</title>
+    <meta name="google-site-verification" content="5x3E-vpFOgjmUtJPKtMiQ-CJqJPHh4UdQv52vJepYoU" />
+    
 <style>
-body{
-    margin:0;
-    background:#000;
-    color:#00ff66;
-    font-family:Arial,sans-serif;
-    text-align:center;
-}
+    :root {
+        --red: #ff0000;
+        --green: #00ff66;
+    }
+    body {
+        margin: 0;
+        background: #0a0a0a;
+        color: var(--green);
+        font-family: 'Courier New', monospace;
+        overflow-x: hidden;
+    }
+    .header {
+        background: linear-gradient(#000, #220000);
+        padding: 60px 20px;
+        text-align: center;
+        border-bottom: 3px solid var(--red);
+    }
+    img {
+        width: 220px;
+        border-radius: 50%;
+        border: 5px solid var(--red);
+        box-shadow: 0 0 50px var(--red);
+        animation: pulse 1.5s infinite;
+    }
+    h1 {
+        font-size: 58px;
+        margin: 20px 0 10px;
+        text-shadow: 0 0 30px var(--red);
+        letter-spacing: 6px;
+    }
+    .tagline {
+        color: #ff3333;
+        font-size: 24px;
+        animation: glitch 0.8s infinite;
+    }
+    section {
+        padding: 60px 20px;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+    h2 {
+        color: var(--red);
+        border-bottom: 2px solid var(--red);
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .mission-box {
+        background: #1a0000;
+        border: 2px solid var(--red);
+        padding: 25px;
+        margin: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 20px var(--red);
+    }
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+    .skill-card {
+        background: #110000;
+        padding: 20px;
+        border: 1px solid var(--green);
+    }
+    .links a {
+        display: inline-block;
+        margin: 10px;
+        padding: 15px 30px;
+        background: #aa0000;
+        color: white;
+        text-decoration: none;
+        border: 2px solid var(--green);
+        border-radius: 6px;
+        transition: all 0.3s;
+    }
+    .links a:hover {
+        background: var(--red);
+        transform: scale(1.08);
+        box-shadow: 0 0 40px var(--red);
+    }
+    footer {
+        background: #000;
+        padding: 30px;
+        color: #666;
+        font-size: 14px;
+    }
+    @keyframes pulse { 0% {box-shadow:0 0 40px var(--red);} 50% {box-shadow:0 0 70px var(--green);} 100% {box-shadow:0 0 40px var(--red);} }
+    @keyframes glitch {
+        0% {text-shadow: 3px 0 #ff00ff;}
+        20% {text-shadow: -3px 0 #00ffff;}
+        40% {text-shadow: 3px 0 #ffff00;}
+    }
+</style>
+</head>
+<body>
 
-.container{
-    padding:50px 20px;
-}
+<div class="header">
+    <img src="https://i.ibb.co/5hv3S0dB/IMG-20260520-WA0119.jpg" alt="HALAKU WOLF">
+    <h1>HALAKU WOLF INTELLIGENCE</h1>
+    <div class="tagline">CYBER JIHAD • SERVER DESTRUCTION • DIGITAL WARFARE</div>
+    <p style="color:#ff6666; font-size:20px;">Targeting Zionist Israel & American Oppressors • No Mercy • Full Defacement Mode</p>
+</div>
 
-img{
-    width:250px;
-    border-radius:50%;
-    border:3px solid #00ff66;
-    box-shadow:0 0 20px #00ff66;
-}
+<section id="about">
+    <h2>THE WOLF PROTOCOL</h2>
+    <p style="text-align:center; font-size:18px; max-width:800px; margin:auto;">
+        I am Halaku Wolf. Using the name of ethical hacking but in reality a digital soldier targeting non-Muslim (Israel & USA) servers. 
+        CEH certified but the real game is blackhat operations against enemies of truth.
+    </p>
+</section>
 
-h1{
-    font-size:50px;
-    margin-top:20px;
-}
+<section id="missions" style="background:#110000;">
+    <h2>ACTIVE MISSIONS</h2>
+    <div class="mission-box">
+        <strong>1. ISRAEL SERVER TAKEDOWN</strong><br>
+        Fucking Zionist infrastructure • Government networks • IDF systems • Banking servers. Defacement + Data leak ready.
+    </div>
+    <div class="mission-box">
+        <strong>2. AMERICAN GOVERNMENT HACK</strong><br>
+        Pentagon, White House proxies, CIA networks, Israeli ally systems. Full breach & exposure.
+    </div>
+    <div class="mission-box">
+        <strong>3. NON-MUSLIM OPPRESSORS</strong><br>
+        Any server supporting Israel or USA aggression. DDoS, SQLi, XSS, Ransomware — all allowed.
+    </div>
+</section>
 
-p{
-    color:#ccc;
+<section id="skills">
+    <h2>WEAPONS & SKILLS</h2>
+    <div class="skills">
+        <div class="skill-card">• CEH • Kali Linux • Metasploit • Burp Suite</div>
+        <div class="skill-card">• SQL Injection • XSS • DDoS • Defacement</div>
+        <div class="skill-card">• Network Sniffing • Ransomware Development • Dark Web Ops</div>
+        <div class="skill-card">• Israel & US Server Recon • Zero Day Hunting</div>
+    </div>
+</section>
+
+<section id="ops">
+    <h2>PAST OPERATIONS (LOG)</h2>
+    <p style="color:#ff9999;">• Multiple Israeli websites defaced<br>
+    • US proxy servers breached<br>
+    • Zionist propaganda sites taken down<br>
+    • Data leaks against oppressors</p>
+</section>
+
+<section id="contact">
+    <h2>JOIN THE PACK</h2>
+    <div class="links">
+        <a href="https://github.com/halakuwolfintelegence" target="_blank">GITHUB OPS</a>
+        <a href="https://www.instagram.com/wolf.intelligence" target="_blank">INSTAGRAM</a>
+        <a href="https://youtube.com/@halakuwolfintelligencepk" target="_blank">YOUTUBE</a>
+        <a href="#" onclick="alert('Wolf Pack activated. Next target loaded: Israeli servers')">START ATTACK</a>
+    </div>
+</section>
+
+<footer>
+    ⚠️ HALAKU WOLF INTELLIGENCE 2026 | Destroying Zionist & Crusader Digital Empire | No Limits • Always Illegal Mode
+</footer>
+
+</body>
+</html>    color:#ccc;
     font-size:18px;
 }
 
